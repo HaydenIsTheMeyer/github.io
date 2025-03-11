@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Game CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+</head>
+<body>
+    <div id="hud">
+        <span>Health: 100%</span> | 
+        <span id="score">Score: 0</span> | 
+        <span id="level">Level: About Me</span>
+    </div>
+    <div id="game-container"></div>
+    <div id="popup" role="dialog" aria-label="CV Section">
+        <div id="popup-content"></div>
+        <button id="close-btn" aria-label="Close Popup">X</button>
+    </div>
+    <div id="mobile-controls">
+        <button id="left-btn">←</button>
+        <button id="right-btn">→</button>
+        <button id="jump-btn">↑</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
